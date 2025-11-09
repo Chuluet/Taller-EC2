@@ -1,0 +1,23 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 44.223.27.174:8000...
+* Connected to 44.223.27.174 (44.223.27.174) port 8000
+> POST /insert HTTP/1.1
+> Host: 44.223.27.174:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 64
+> 
+} [64 bytes data]
+< HTTP/1.1 200 OK
+< date: Sun, 09 Nov 2025 22:03:06 GMT
+< server: uvicorn
+< content-length: 45
+< content-type: application/json
+< 
+{ [45 bytes data]
+100   109  100    45  100    64    468    666 --:--:-- --:--:-- --:--:--  1135
+* Connection #0 to host 44.223.27.174 left intact
+{"filename":"Profep.json","total_archivos":2}
