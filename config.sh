@@ -5,7 +5,7 @@
 
 # --- Variables ---
 REPO_URL="https://github.com/Chuluet/Taller-EC2.git"
-PROJECT_DIR="/home/ubuntu/fastapi_app"
+PROJECT_DIR="/home/ubuntu/taller-ec2"
 ENV_NAME="fastapi_env"
 CONDA_PATH="/home/ubuntu/miniconda3"
 
