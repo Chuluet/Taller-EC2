@@ -6,6 +6,8 @@ After=network.target
 User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/taller-ec2
+Environment="AWS_EC2_METADATA_DISABLED=false"
+Environment="AWS_DEFAULT_REGION=us-east-1"
 ExecStart=/home/ubuntu/miniconda3/envs/fastapi_env/bin/uvicorn main:app --host 0.0.0.0 --port 8000
 Restart=always
 RestartSec=3
